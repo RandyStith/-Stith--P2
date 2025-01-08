@@ -107,9 +107,26 @@ function makeGalleryImageOnloadCallback(galleryImage) {
 
 $(document).ready( function() {
 	
+
+	$( "#nextPhoto").position({
+		my: "right bottom",
+		at: "right bottom",
+		of: "#nav"
+	});
+
+	const urlParams = new URLSearchParams(window.location.search);
+
+	for (const [keu, value] of urlParams) {
+		console.log(`${key}:${value}`);
+		mUrl = value;
+	}
+	if(mUrl == undefined) {
+		mUrl = 'images.json';
+	}
+	fetchJSON();
+
 	// This initially hides the photos' metadata information
 	//$('.details').eq(0).hide();
-	
 });
 
 window.addEventListener('load', function() {
@@ -128,4 +145,16 @@ function GalleryImage() {
 	var date; 
 	//4. either a String (src URL) or an an HTMLImageObject (bitmap of the photo. https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement)
 	var img;
+}
+
+function toggleDetails() {
+	if($(".moreIndicator").hasClass("rot90"))
+	{
+		$(".moreIndicator").removeClass("rot90");
+		$(".moreIndicator").addClass("rot270");
+	} else {
+		$(".moreIndicator").removeClass("270");
+		$(".moreIndicator").addClass("rot90");
+	}
+	$( ".details" ).slideToggle( "slow", "linear" );
 }
