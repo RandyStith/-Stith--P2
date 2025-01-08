@@ -65,19 +65,18 @@ var mCurrentIndex = 0;
 var mRequest = new XMLHttpRequest();
 
 // Array holding GalleryImage objects (see below).
-var mImages = [
-	function iterateJSON(mJson) {
-		for( x = 0; x < mJson.images.length; x++ )
-		{
-			mImages[x] = new GalleryImage();
-			mImages[x].location = mJson.images[x].imgLocation;
-			mImages[x].description = mJson.images[x].description;
-			mImages[x].date = mJson.images[x].date;
-			mImages[x].img = Mjson.imagesp[x].imgPath;
-		}
-	}
-];
+var mImages = [];
 
+function iterateJSON(mJson) {
+	for( x = 0; x < mJson.images.length; x++ )
+	{
+		mImages[x] = new GalleryImage();
+		mImages[x].location = mJson.images[x].imgLocation;
+		mImages[x].description = mJson.images[x].description;
+		mImages[x].date = mJson.images[x].date;
+		mImages[x].img = mJson.images[x].imgPath; 
+	}
+}
 // Holds the retrived JSON information
 var mJson;
 
@@ -93,7 +92,7 @@ function fetchJSON() {
 			iterateJSON(mJson);
 		}
 	}
-	mRequest.open("GET", mUrul, true);
+	mRequest.open("GET", mUrl, true);
 	mRequest.send();
 }
 //You can optionally use the following function as your event callback for loading the source of Images from your json data (for HTMLImageObject).
