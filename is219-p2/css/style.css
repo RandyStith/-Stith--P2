@@ -32,12 +32,13 @@ body {
 	opacity: .8;
 	bottom: 10px;
 	left: 45%;
-	top: 0px;
+	
 }
 
 .thumbnail {
 	position: relative;
 	box-shadow: 1px 3px 20px 0px;
+	width: 100%;
 }
 
 
