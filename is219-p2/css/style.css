@@ -10,8 +10,9 @@ body {
 	width: 650px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: white;
+	background-color: #278cff;
 	border-radius: 2px;
+	color: #ff9dfa;
 }	
 
 #slideShow {	
@@ -70,7 +71,7 @@ body {
 	margin-top: 20px;
 }
 .details {
-	border: 1px #000 dashed;
+	border: 1px #ff9dfa dashed;
 	padding: 0px 10px;
 	margin: 20px 0px;
 }
