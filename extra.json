@@ -3,46 +3,46 @@
 
    
         {
-            "imgPath": "https://th.bing.com/th/id/OIP.hSKsOLHRWp6MABSEyTE8jAHaE8?rs=1&pid=ImgDetMain",
+            "imgPath": "img/places/OIP.jpg",
             "imgLocation": "North America",
             "description": "The hamburger has become the staple of American cuisine and is shared all around the world",
             "date": "The hamburger gained its popularity in the 1920s and 1930s."
         },
         {
-            "imgPath": "https://c.pxhere.com/photos/9e/b5/photo-1622599.jpg!d",
+            "imgPath": "img/places/taco.jpg",
             "imgLocation": "South America",
             "description": "Tacos are the most notorious food in South America, and for good reason as it has spread throughout the world",
             "date": "Tacos were an 18th century food for the working man."
         },
         {
-            "imgPath": "https://th.bing.com/th/id/OIP.SuvJw3mzVb5fl_-1VAbzfwHaHZ?rs=1&pid=ImgDetMain",
+            "imgPath": "img/places/fishnchips.jpg",
             "imgLocation": "Europe",
             "description": "Fish and chips is a staple dish in Europe, and for good reason.",
             "date": "In the late 19th century, fish and chips started and quickly became a favorite among the countries in Europe."
         },
         {
-            "imgPath": "https://travelfreak.com/wp-content/uploads/2013/04/momos.jpg",
+            "imgPath": "img/places/dump.jpg",
             "imgLocation": "Asia",
             "description": "The Dumpling is a very versatile dish, countries around the world, but specifically in Asia have made their own variation.",
             "date": "The dumpling originates from over 2000 years ago in the Eastern Han Dynasty."
         },
         {
-            "imgPath": "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8xNTkwODkxNC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTYzNzU5Mzg2NX0.u7NLqKy6TWaTp4okHdWn4z4U_xJHbeTLezZAy3Zyivs/img.jpg?width=2000&height=2000",
+            "imgPath": "img/places/goop.webp",
             "imgLocation": "Africa",
             "description": "Fufu is a dish that has a dough like consistency that is usually served with various soups.",
             "date": "Fufu became popular in Africa around the 16th century."
         },
         {
-            "imgPath": "https://www.myticketstoindia.com.au/wp-content/uploads/2021/07/Aussie-Meat-Pies.jpg",
+            "imgPath": "img/places/meatpie.jpg",
             "imgLocation": "Australia",
             "description": "Meat Pie is a pastrie filled with delicious diced or minced meat and gravy.",
             "date": "Meat pies started being popular around the late 1940s, and quickly took off from there."
         },
         {
-            "imgPath": "",
-            "imgLocation": "",
-            "description": "",
-            "date": ""
+            "imgPath": "img/places/hoosh.jpg",
+            "imgLocation": "Antarctica",
+            "description": "Hoosh is a stew made of sledging biscuits, pemmican and water. More broadly, it may be a mix of water with dried meat, fat, and a grain-based thickening agent.",
+            "date": "Created in the early 1900s for the first antarctic expeditions."
         }
        
 
